@@ -9,7 +9,7 @@ frontend/dist
 node_modules
 .pnp
 .pnp.js
-yarn.lock
+backend/yarn.lock
 package-lock.json
 
 # tests
