@@ -1,0 +1,23 @@
+{
+    "name": "birdie-care-app",
+    "version": "1.0.0",
+    "engines": {
+        "node": "16.10.0",
+        "yarn": "1.22.4"
+    },
+    "scripts": {
+        "build": "yarn --cwd backend && yarn --cwd backend build",
+        "start": "yarn --cwd backend start:prod"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rsoubrane/birdie-care-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rsoubrane/birdie-care-app/issues"
+    },
+    "homepage": "https://github.com/rsoubrane/birdie-care-app#readme"
+}

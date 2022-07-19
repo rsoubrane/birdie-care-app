@@ -1,0 +1,28 @@
+{
+	"plugins": ["prettier", "@typescript-eslint"],
+	"extends": ["react-app", "prettier"],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": ["**/tsconfig.json"],
+		"sourceType": "module",
+		"ecmaVersion": 2018,
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"settings": {
+		"import/resolver": {
+			"typescript": {
+				"alwaysTryTypes": true
+			}
+		}
+	},
+	"rules": {
+		"arrow-body-style": 1,
+		"react/self-closing-comp": 1,
+		"@typescript-eslint/no-shadow": 0,
+		"import/no-useless-path-segments": 1,
+		"import/no-extraneous-dependencies": 0,
+		"@typescript-eslint/naming-convention": 0
+	}
+}

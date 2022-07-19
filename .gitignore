@@ -1,0 +1,25 @@
+# envs
+backend/.env
+
+# builds
+backend/dist
+frontend/dist
+
+# dependencies
+node_modules
+.pnp
+.pnp.js
+yarn.lock
+package-lock.json
+
+# tests
+coverage
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# misc
+.idea
+.DS_Store

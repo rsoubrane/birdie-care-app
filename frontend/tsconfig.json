@@ -1,0 +1,28 @@
+{
+	"typeAcquisition": {
+		"enable": true,
+		"include": ["tsconfig.json"]
+	},
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"types": ["vite/client", "@types/jest", "@types/node"],
+		"module": "ES2022",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"strict": true,
+		"allowJs": false,
+		"skipLibCheck": false,
+		"allowSyntheticDefaultImports": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"forceConsistentCasingInFileNames": true,
+		"useUnknownInCatchVariables": false,
+		"noFallthroughCasesInSwitch": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx"
+	},
+	"include": ["src", "__tests__"],
+	"exclude": ["node_modules"]
+}
